@@ -1,0 +1,55 @@
+/* App.css */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f8f9fa;
+  color: black;
+}
+
+h1, h2 {
+  font-weight: bold;
+  text-align: center;
+}
+
+h1 {
+  color: #007bff;
+}
+
+.product-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.cart-container {
+  background-color: #ffffff;
+}
+
+.cart-item {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+.price-details {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #f1f1f1;
+  border-radius: 8px;
+}
+
+.place-order-button {
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  font-weight: bold;
+}
